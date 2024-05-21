@@ -1,0 +1,43 @@
+
+{% extends 'miapp/base.html' %}
+{% load static %}
+
+{% block content %}
+    <style>
+        .about-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .about-container img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .about-container h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .about-container p {
+            text-align: center;
+            color: #666;
+            line-height: 1.6;
+            max-width: 600px;
+        }
+    </style>
+    <div class="about-container">
+        <img src="{% static 'miapp/photo.jpeg' %}" alt="Mi Foto">
+        <h1>Acerca de Mí</h1>
+        <p>
+            ¡Hola! Soy Agustina Vega, técnica superior en Psicomotricidad. Actualmente, estoy estudiando una licenciatura a distancia, lo que me ha llevado a usar plataformas educativas. Esta experiencia me inspiró a crear un sitio web que sea fácil e intuitivo para otros usuarios.
+Siempre estoy en busca de nuevas metas y desafíos, y por eso decidí incursionar en el mundo de la programación. Poco a poco, el objetivo es ir creando y articulando mi profesión con estas nuevas tecnologías. Gracias por visitar mi página.
+        </p>
+    </div>
+{% endblock %}
