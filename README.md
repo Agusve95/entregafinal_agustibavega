@@ -1,4 +1,4 @@
-# Plataforma de Estudio
+# Plataforma de Estudio creada por Agustina Vega
 
 ¡Bienvenido a nuestra plataforma de estudio! Este proyecto consiste en una aplicación web para gestionar cursos, profesores, alumnos y entregas.
 
